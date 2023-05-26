@@ -1,0 +1,40 @@
+{
+  "restaurant": [
+    {
+      "name": "Mawkli",
+      "email": "Mawk@gmail.com",
+      "address": "Mosa",
+      "id": 5
+    },
+    {
+      "name": "Sami",
+      "email": "Hicham@gmail.com",
+      "address": "Borgon",
+      "id": 7
+    },
+    {
+      "name": "Casashop",
+      "email": "Sohop@gmail.com",
+      "address": "Belveder",
+      "id": 8
+    },
+    {
+      "name": "cim",
+      "email": "Marjane@gmail.com",
+      "address": "Drissia 1",
+      "id": 9
+    },
+    {
+      "name": "Marjan",
+      "email": "Marjane@gmail.com",
+      "address": "Drissia 1",
+      "id": 10
+    },
+    {
+      "name": "Casashop",
+      "email": "Sohop@gmail.com",
+      "address": "Belveder",
+      "id": 11
+    }
+  ]
+}
