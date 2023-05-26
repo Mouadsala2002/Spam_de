@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="add">Home</a></li>
+  <li><a href="update">Update</a>Update Restaurant</li>
+  <li><a href="list">list Restaurant</a></li>
+  <li><a href="login">Login</a></li>
+  <li><a href="register/">Register</a></li>
+</ul>
+
+</body>
+</html>
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Resto</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+<ul>
+       <li> <a routerLink="add">Add Restaurant</a></li>
+     <li>   <a  routerLink="update">update Restaurant</a></li>
+    <li><a  routerLink="list">list Restaurant</a></li>
+  <li><a  routerLink="login">login </a></li>
+         <li><a  routerLink="register">register </a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+ <li><a routerLink="add">Add Restaurant</a></li>
+
+<li><a routerLink="update">update Restaurant</a></li>
+
+<li><a routerLink="list">list Restaurant</a></li>
+
+<li><a routerLink="login">login </a></li>
+
+<li><a routerLink="register">register </a></li>
+
+
+  </ul> -->
+
+<router-outlet></router-outlet>
